@@ -72,11 +72,26 @@ input[type="submit"] {
     width: 2.5rem;
     border-radius: 50%;
     text-align: center;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
     font-size: 15px;
     font-weight: 700;
 }
 
 .ratingValue:hover, input[type="submit"] {
     cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.ratingValue:hover {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.selectedRating {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 }
