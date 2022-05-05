@@ -13,9 +13,9 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div class="ratingStart container hidden">
+    <div class="ratingStart container" id="start">
       <div class="star">
-        <img src="./images/icon-star.svg" alt="">
+        <img src="./images/icon-star.svg" alt="gold star">
       </div>
       <h2>How did we do?</h2>
 
@@ -36,8 +36,8 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="thankyou container">
-      <img src="./images/illustration-thank-you.svg" alt="">
+    <div class="thankyou container hidden" id="thankyou">
+      <img class="imgThankyou" src="./images/illustration-thank-you.svg" alt="thank you for your feedback">
       <div class="thankyouSelection">You selected out of 5</div>
 
       <h2>Thank you!</h2>
@@ -54,4 +54,6 @@
     </div>
   </footer> -->
 </body>
+
+<script src="scripts.js"></script>
 </html>
