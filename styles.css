@@ -49,10 +49,11 @@ input[type="submit"] {
     flex-direction: column;
     width: 17.5rem;
     background-color: hsl(213, 19%, 18%);
-    padding: 1.3rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     gap: 1.5rem;
     margin: 0 auto;
+    min-height: 300px;
 }
 
 .thankyou {
@@ -120,6 +121,12 @@ input[type="submit"]:hover {
     color:hsl(25, 97%, 53%);
     background-color: rgba(124, 135, 152, 0.223);
     border-radius: 1rem;
-    padding: .5rem;
+    padding: .2rem 1rem;
     font-size: .9rem;
+    line-height: 1.6rem;
+    height: 1.4rem;
+}
+
+.thankyou h2 {
+    margin: .5rem 0 -.5rem;
 }
