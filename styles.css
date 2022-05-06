@@ -47,7 +47,7 @@ input[type="submit"] {
 .container {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 17.5rem;
     background-color: hsl(213, 19%, 18%);
     padding: 1.3rem;
     border-radius: 1rem;
